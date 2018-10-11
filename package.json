@@ -10,11 +10,28 @@
     "type": "git",
     "url": "git+https://github.com/klauskpm/cz-simple-changelog.git"
   },
-  "keywords": ["changelog", "conventional-changelog", "commitizen", "simple-changelog"],
+  "keywords": [
+    "changelog",
+    "conventional-changelog",
+    "commitizen",
+    "simple-changelog"
+  ],
   "author": "Klaus Kazlauskas <klausmachado@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/klauskpm/cz-simple-changelog/issues"
   },
-  "homepage": "https://github.com/klauskpm/cz-simple-changelog#readme"
+  "homepage": "https://github.com/klauskpm/cz-simple-changelog#readme",
+  "dependencies": {
+    "conventional-commit-types": "^2.0.0",
+    "lodash.map": "^4.5.1",
+    "longest": "^1.0.1",
+    "right-pad": "^1.0.1",
+    "word-wrap": "^1.0.3"
+  },
+  "config": {
+    "commitizen" : {
+      "path": "./index.js"
+    }
+  }
 }
