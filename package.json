@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+    "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'",
+    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
     "commitizen",
     "simple-changelog"
   ],
-  "author": "Klaus Kazlauskas <klausmachado@gmail.com>",
+  "author": {
+    "name": "Klaus Kazlauskas",
+    "email": "klausmachado@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/klauskpm/cz-simple-changelog/issues"
@@ -36,6 +40,7 @@
     }
   },
   "devDependencies": {
+    "weallbehave": "^1.2.0",
     "weallcontribute": "^1.0.8"
   }
 }
