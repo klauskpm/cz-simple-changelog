@@ -30,7 +30,7 @@
     "word-wrap": "^1.0.3"
   },
   "config": {
-    "commitizen" : {
+    "commitizen": {
       "path": "./index.js"
     }
   }
