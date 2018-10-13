@@ -1,6 +1,6 @@
 {
   "name": "cz-simple-changelog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simplified commitizen adapter following the conventional-changelog format.",
   "main": "index.js",
   "scripts": {
