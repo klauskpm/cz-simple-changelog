@@ -1,5 +1,8 @@
 # cz-simple-changelog
 
+[![npm version](https://img.shields.io/npm/v/cz-simple-changelog.svg?style=flat-square)](https://www.npmjs.org/package/cz-simple-changelog)
+[![npm downloads](https://img.shields.io/npm/dm/cz-simple-changelog.svg?style=flat-square)](http://npm-stat.com/charts.html?package=cz-simple-changelog&from=2015-08-01)
+
 A cloned and simplefied version of [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog). Simplified prompts for [conventional changelog](https://github.com/conventional-changelog/conventional-changelog) standard.
 
 ## Conventional and simplified
